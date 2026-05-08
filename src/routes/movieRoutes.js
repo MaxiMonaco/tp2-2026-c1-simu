@@ -9,7 +9,7 @@ import {
     getAwardWinnersController,
     searchMoviesController
 }from "../controllers/movieController.js";
-import { authMiddleware } from "../middlewares/authMiddleware.js";
+import { authMiddleware } from "../middleware/authMiddleware.js";
 
 const router = express.Router();
 
